@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B30C0E032277ED5C002EA644 /* NSLayoutAnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C0E022277ED5C002EA644 /* NSLayoutAnchorViewController.swift */; };
+		B30C0E052277EDFB002EA644 /* StackViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C0E042277EDFB002EA644 /* StackViewViewController.swift */; };
 		B3D25C142277D2CA00C2A6D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D25C132277D2CA00C2A6D7 /* AppDelegate.swift */; };
 		B3D25C162277D2CA00C2A6D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D25C152277D2CA00C2A6D7 /* ViewController.swift */; };
 		B3D25C192277D2CA00C2A6D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D25C172277D2CA00C2A6D7 /* Main.storyboard */; };
 		B3D25C1B2277D2CB00C2A6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D25C1A2277D2CB00C2A6D7 /* Assets.xcassets */; };
 		B3D25C1E2277D2CB00C2A6D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D25C1C2277D2CB00C2A6D7 /* LaunchScreen.storyboard */; };
+		B3D25C272277DF1800C2A6D7 /* EdgesForExtendedLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D25C262277DF1800C2A6D7 /* EdgesForExtendedLayoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B30C0E022277ED5C002EA644 /* NSLayoutAnchorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutAnchorViewController.swift; sourceTree = "<group>"; };
+		B30C0E042277EDFB002EA644 /* StackViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewViewController.swift; sourceTree = "<group>"; };
 		B3D25C102277D2CA00C2A6D7 /* ViewLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D25C132277D2CA00C2A6D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3D25C152277D2CA00C2A6D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		B3D25C1A2277D2CB00C2A6D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3D25C1D2277D2CB00C2A6D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3D25C1F2277D2CB00C2A6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D25C262277DF1800C2A6D7 /* EdgesForExtendedLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgesForExtendedLayoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		B3D25C122277D2CA00C2A6D7 /* ViewLayout */ = {
 			isa = PBXGroup;
 			children = (
+				B3D25C252277D2EC00C2A6D7 /* ViewController */,
 				B3D25C132277D2CA00C2A6D7 /* AppDelegate.swift */,
-				B3D25C152277D2CA00C2A6D7 /* ViewController.swift */,
 				B3D25C172277D2CA00C2A6D7 /* Main.storyboard */,
-				B3D25C1A2277D2CB00C2A6D7 /* Assets.xcassets */,
 				B3D25C1C2277D2CB00C2A6D7 /* LaunchScreen.storyboard */,
+				B3D25C1A2277D2CB00C2A6D7 /* Assets.xcassets */,
 				B3D25C1F2277D2CB00C2A6D7 /* Info.plist */,
 			);
 			path = ViewLayout;
+			sourceTree = "<group>";
+		};
+		B3D25C252277D2EC00C2A6D7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B3D25C152277D2CA00C2A6D7 /* ViewController.swift */,
+				B3D25C262277DF1800C2A6D7 /* EdgesForExtendedLayoutViewController.swift */,
+				B30C0E022277ED5C002EA644 /* NSLayoutAnchorViewController.swift */,
+				B30C0E042277EDFB002EA644 /* StackViewViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D25C272277DF1800C2A6D7 /* EdgesForExtendedLayoutViewController.swift in Sources */,
 				B3D25C162277D2CA00C2A6D7 /* ViewController.swift in Sources */,
+				B30C0E052277EDFB002EA644 /* StackViewViewController.swift in Sources */,
+				B30C0E032277ED5C002EA644 /* NSLayoutAnchorViewController.swift in Sources */,
 				B3D25C142277D2CA00C2A6D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,7 +303,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6M25S942D;
 				INFOPLIST_FILE = ViewLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +322,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6M25S942D;
 				INFOPLIST_FILE = ViewLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
